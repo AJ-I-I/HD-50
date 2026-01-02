@@ -1,0 +1,5 @@
+target/
+build_log.txt
+VAULT.DAT
+UNLOCKED_CONTENTS/
+**/*.rs.bk

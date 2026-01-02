@@ -1,0 +1,27 @@
+[package]
+name = "hd-50-vault"
+version = "2.0.0"
+edition = "2021"
+authors = ["Antigravity <agent@deepmind.com>"]
+
+[dependencies]
+# Encryption
+aes-gcm = "0.10"
+argon2 = "0.5"
+rand = "0.8"
+
+# TUI / Interaction
+crossterm = "0.27"
+rpassword = "7.0"
+
+# Filesystem
+walkdir = "2.4"
+zip = "0.6"  # To pack the vault contents
+
+# Serialization (if needed for metadata, keeping it simple for now)
+# serde = { version = "1.0", features = ["derive"] }
+
+[profile.release]
+strip = true
+opt-level = "z"
+panic = "abort"

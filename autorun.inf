@@ -1,0 +1,7 @@
+[Autorun]
+Open=HD50.exe
+Icon=HD50.exe
+Label=Secure Vault
+Action=Unlock Secure Vault
+shell\open\command=HD50.exe
+shell\open=Unlock Secure Vault
