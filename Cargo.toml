@@ -1,8 +1,7 @@
 [package]
 name = "hd-50-vault"
 version = "2.0.0"
-edition = "2021"
-authors = ["Antigravity <agent@deepmind.com>"]
+edition = "2024"
 
 [dependencies]
 # Encryption
